@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\controllers",
+    "\\routers",
+    "\\views",
+    "\\views\\mixins",
+    "\\WetubeProject"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\controllers\\userController.js",
   "PreviewInSolutionExplorer": false
 }
