@@ -33,11 +33,11 @@ const app = express();
 
 app.use(helmet());
 app.set("view engine", "pug");
-app.use(logger("dev"));
+app.use("/uploads", express.static("uploads")); // user에 해당하는 file을 본인 server에 저장하는 건 좋은 practice가 아님
+app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended : true }));
-app.use(cookieParser());
-
+app.use(logger("dev"));
 app.use(localsMiddleware);
 
 // app.get("/", handleHome);

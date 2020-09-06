@@ -2,11 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\controllers",
+    "\\models",
     "\\routers",
     "\\views",
+    "\\views\\layouts",
     "\\views\\mixins",
+    "\\views\\partials",
     "\\WetubeProject"
   ],
-  "SelectedNode": "\\controllers\\userController.js",
+  "SelectedNode": "\\controllers\\videoController.js",
   "PreviewInSolutionExplorer": false
 }
