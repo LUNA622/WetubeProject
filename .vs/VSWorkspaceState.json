@@ -1,15 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\controllers",
-    "\\models",
-    "\\routers",
-    "\\views",
+    "\\assets",
+    "\\assets\\js",
+    "\\assets\\scss",
+    "\\assets\\scss\\config",
+    "\\static",
     "\\views\\layouts",
     "\\views\\mixins",
-    "\\views\\partials",
-    "\\WetubeProject"
+    "\\views\\partials"
   ],
-  "SelectedNode": "\\controllers\\videoController.js",
+  "SelectedNode": "\\assets\\scss\\styles.scss",
   "PreviewInSolutionExplorer": false
 }
